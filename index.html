@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Paget</title>
 
+    <!-- normalize-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -12,31 +13,53 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!--fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--css-->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="page-header">
+      <nav class="header-nav">
+        <a class="nav-logo-link" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address-list">
+          <li class="address-list-link">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="address-list-link">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!--effective silotions-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="effective">
+        <h1 class="effective-title">Effective Solutions for Your Business</h1>
+        <button class="effective-button" type="button">Order Service</button>
       </section>
 
       <!--strategies-->
@@ -80,7 +103,7 @@
         <ul>
           <li>
             <img
-              src="./images/img-3.jpg"
+              src="./images/our-team/img-3.jpg"
               alt="photo Mark Guerrero"
               width="264"
               height="260"
@@ -90,7 +113,7 @@
           </li>
           <li>
             <img
-              src="./images/img-2.jpg"
+              src="./images/our-team/img-2.jpg"
               alt="photo Tom Ford"
               width="264"
               height="260"
@@ -100,7 +123,7 @@
           </li>
           <li>
             <img
-              src="./images/img-1.jpg"
+              src="./images/our-team/img-1.jpg"
               alt="photo Camila Garcia"
               width="264"
               height="260"
@@ -110,13 +133,82 @@
           </li>
           <li>
             <img
-              src="./images/img.jpg"
+              src="./images/our-team/img.jpg"
               alt="photo Daniel Wilson"
               width="264"
               height="260"
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!--our portfolio-->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio/img-5.jpg"
+              alt="photo Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/img-4.jpg"
+              alt="photo Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/img-3.jpg"
+              alt="photo Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio/img-2.jpg"
+              alt="photo Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/img-1.jpg"
+              alt="photo Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/img.jpg"
+              alt="photo "
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
